@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/16948
 from collections import deque
 
 def availMove(pos, m):
