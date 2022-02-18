@@ -1,6 +1,4 @@
 #https://www.acmicpc.net/problem/1987
-from collections import deque
-    
 def bfs():
     queue = set()
     answer = 1
