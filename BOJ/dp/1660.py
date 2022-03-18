@@ -1,10 +1,10 @@
 #https://www.acmicpc.net/problem/1660
 def get_series(N):
     seq = 1
-    n = 1
+    n = 2
     series = [seq]
     while True:
-        seq += int((n+1)*(n+2)/2)
+        seq += int(n*(n+1)/2)
         if seq > N:
             break
         series.append(seq)
